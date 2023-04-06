@@ -1,0 +1,3 @@
+How can we add additional features to the protocol without breaking previous functionality?
+  
+   Each new version of the protocol should have a unique version number. The version number should be included in the header of each card, so that receivers can determine which version of the protocol is being used. And to allow for any kind of extension we can imagine, we should introduce an extension mechanism that allows new fields to be added to the header of the card. Each extension field should have a some sort of a way to uniquely identify it , and should have a descriptions of its purpose and usage.
